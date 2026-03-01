@@ -1,0 +1,260 @@
+*{
+    margin:0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header1{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    letter-spacing: 10px;
+    word-spacing:20px;
+
+}
+
+
+
+.header2{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    margin-top: 50px;
+}
+
+.strong1{
+    display: block;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: larger;
+    font-style: oblique;
+    margin-top: 50px;
+}
+
+.strong2{
+    display: block;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: larger;
+    font-style: oblique;
+    margin-top: 50px;
+}
+
+.header3{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    margin-top: 50px;
+    
+}
+
+.sec3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#btn1{
+    font-size: x-large;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+em{
+    display: block;
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+    margin-top: 25px;
+}
+
+
+.header4{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+}
+
+.p1{
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.p2{
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.p3{
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.header5{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+
+
+}
+
+.str1{
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.str2{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.str3{
+    display:block;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+
+}
+
+.header6{
+    display: flex;
+    margin: auto;
+    font-size: x-large;
+    margin-top: 50px;
+    background: linear-gradient(to right , red , blue);
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.a1{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec4{
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    margin:50px auto;
+    border-image: linear-gradient(to right red,blue) 1;
+    width: fit-content;
+    animation:bgChange 6s linear infinite,borderColorChange 5s infinite;
+    
+}
+
+
+@keyframes borderColorChange{
+    0%{border-color: rgb(227, 207, 246);}
+    25%{border-color: rgb(176, 108, 240);}
+    50%{border-color:rgb(116, 53, 176)}
+    75%{border-color:rgb(126, 8, 235)}
+    100%{border-color: rgb(26, 1, 49);}
+
+
+
+
+}
+
+
+
+@keyframes bgChange{
+    0%{background-color: rgb(245, 247, 247);}
+    20%{background-color: rgb(153, 203, 203);}
+    40%{background-color: rgb(82, 183, 183);}
+    60%{background-color: rgb(46, 155, 155);}
+    80%{background-color: rgb(15, 95, 95);}
+    100%{background-color: rgb(1, 54, 54);}
+
+
+}
+
+.sec5{
+    display: block;
+    width: fit-content;
+    border-width:5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    animation: borderColorChange 5s infinite , bgChange 6s infinite;
+    transition: border-color 1s ease-in-out;
+    transition: background-color 1s ease-in-out;
+    
+}
+
+@keyframes borderColorChange{
+    0%{border-color: rgb(227, 207, 246);}
+    25%{border-color: rgb(176, 108, 240);}
+    50%{border-color:rgb(116, 53, 176)}
+    75%{border-color:rgb(126, 8, 235)}
+    100%{border-color: rgb(26, 1, 49);}
+
+
+
+
+}
+
+.anim{
+    animation:colorChange 5s infinite;
+}
+
+@keyframes colorChange{
+    0%{color:rgb(210, 210, 236);}
+    25%{color:blue}
+    50%{color:rgb(9, 9, 175)}
+    75%{
+        color:blue
+    }
+    100%{color:rgb(2, 2, 50)}
+}
+
+@keyframes bgChange{
+    0%{background-color: rgb(245, 247, 247);}
+    20%{background-color: rgb(153, 203, 203);}
+    40%{background-color: rgb(82, 183, 183);}
+    60%{background-color: rgb(46, 155, 155);}
+    80%{background-color: rgb(15, 95, 95);}
+    100%{background-color: rgb(1, 54, 54);}
+
+}
+
+footer{
+    text-align: center;
+}
+
+footer > a{
+    margin-top: 30px;
+    text-decoration: none;
+}
